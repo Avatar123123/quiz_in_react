@@ -1,0 +1,87 @@
+
+.quiz__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.quiz__card{
+    display: grid;
+    justify-content: left;
+    flex-direction: column;
+    background-color: rgb(98, 184, 237);
+    box-sizing: border-box;
+    min-height: 200px;
+    padding: 20px;
+    margin: 50px;
+    width: 500px;
+    border-radius: 20px;
+    padding-bottom: 5rem;
+}
+
+
+.quiz__card:hover{
+    box-shadow: 3px 4px 20px blue;
+    transition: box-shadow 0.2s ease-in;  
+}
+
+.button {
+    background-color: palegreen;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgb(49, 186, 231);
+    transition: 0.2s ease-in;
+}
+
+.button:active {
+    color: white;
+}
+
+.hint__container {
+    display: flex;
+    height: 2rem;
+    color: white;
+    position: right;
+
+    font-weight: bold;
+}
+.submit__container {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.submit__button {
+    padding: 0.6rem;
+    background-color:rgb(42, 244, 160);
+    font-weight: bold;
+    position: absolute;
+    font-size: medium; 
+    border-radius: 10px;
+}
+
+.submit__button:hover{
+    background-color: rgb(28, 245, 245);
+    color: rgb(0, 0, 0); 
+    transition: 0.2s ease-in;
+
+}
+
+.score__button {
+    padding:  1rem 3rem 1rem 3rem;
+    border-radius: 20px;
+    background-color: rgb(78, 190, 227);
+}
+
+.score__button h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
