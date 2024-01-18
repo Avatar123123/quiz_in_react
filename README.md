@@ -1,4 +1,4 @@
-### Description about the quiz
+### Description of the quiz
 
 This is a general knowledge quiz. There are 10 questions in total. 
 
